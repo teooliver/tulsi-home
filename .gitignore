@@ -1,7 +1,1 @@
-# Child repos: each is its own git repo
-backend/
-clients/
-homelab-k3s/
-observability/
-
 .DS_Store
