@@ -1,6 +1,6 @@
 # Tulsi — Home Repo
 
-Home for agent work on Tulsi, a task-management app (Rust API, React client,
+Home for agent work on Tulsi, a task-management app (Rust API, Foldkit web client,
 homelab deployment, observability stack). Run the agent from here. Each repo
 below is its own git repo: commit inside that repo, not here.
 
@@ -16,7 +16,7 @@ Paths are relative to this repo; the repos sit beside it in the parent `tulsi` f
 - tulsi-rust-backend (Rust/Axum/Postgres API): `../backend/tulsi-rust-backend`.
   Clone from https://github.com/teooliver/tulsi-backend-rust.git if missing.
   Read its AGENTS.md first.
-- tulsi-web (TanStack Start React client for the API): `../clients/tulsi-web`.
+- tulsi-web (Foldkit + Effect web client for the API): `../clients/tulsi-web`.
   Clone from https://github.com/teooliver/tulsi-web-client.git if missing.
   Read its AGENTS.md first. Regenerating its API client needs the backend on :8080.
 - homelab-k3s (K3s manifests deploying Tulsi to a Raspberry Pi): `../homelab-k3s`.
